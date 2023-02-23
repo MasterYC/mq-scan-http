@@ -1,0 +1,23 @@
+{
+    "thread_nums":3,
+    "time_out":3,
+    "retry_nums":3,
+    "min_tasks":1000,
+    "max_tasks":3000,
+    "ip":"194.127.192.179",
+    "port":5672,
+    "virtual_host":"/new-global-v3",
+    "user":"admin",
+    "password":"ff#IST@QA1203",
+    "consume_queue":"web_scan_task_queue",
+    "publish_routingkey":"web.task.result",
+    "publish_exchange":"global_scan_exchange",
+    "status_log_open":true,
+    "log_per_times":1,
+    "json_log_open":true,
+    "crack_url":[
+        "/admin",
+        "/user"
+    ],
+    "crack_open":false
+}
